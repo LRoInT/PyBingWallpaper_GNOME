@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Bing Wallpaper
+Name[zh_CN]=必应壁纸
+Exec=bash -c '~/.local/bin/bingwallpaper'
+Type=Application
+Icon=bingwallpaper
+Terminal=false
