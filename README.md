@@ -1,5 +1,7 @@
 # PyBingWallpaper_GNOME
 
+[中文](./README_zh.md)
+
 This program automatically changes your GNOME desktop wallpaper to the Bing daily image.
 
 The program saves the downloaded Bing wallpaper and its copyright information to the `~/bingwallpaper` directory. The wallpaper is saved as `bingwallpaper%Y-%M-%D.jpg`, and the copyright information is saved as `copyright%Y-%M-%D`.

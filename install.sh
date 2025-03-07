@@ -20,6 +20,8 @@ then
 fi
 sudo cp ./bingwallpaper.desktop ~/.local/share/applications/bingwallpaper.desktop
 
+echo "Installed Bing Wallpaper"
+
 # Set autostart
 if [ -d ~/.config/autostart/bingwallpaper.desktop ];
 then
@@ -27,4 +29,4 @@ then
 fi
 sudo cp ./bingwallpaper.desktop ~/.config/autostart/bingwallpaper.desktop
 
-echo "Bing Wallpaper installed"
+echo "Added Bing Wallpaper to autostart"
