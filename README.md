@@ -31,16 +31,18 @@ bingwallpaper
 After installation, you can run the program by simply typing bingwallpaper in your terminal.
 
 Run from the application list:
-Find the "Bing Wallpaper" application in your application list and run it.
+Find the **Bing Wallpaper** application in your application list and run it.
 
-## Config
+## Config&Log
 
-The config file is at `~/.config/bingwallpaper.json`. You can edit it to change the settings.
+1. The config file is at `~/.config/bingwallpaper.json`. You can edit it to change the settings.
+2. The log file is at `~/.cache/bingwallpaper.log`. Every line is like `Download url, status_code, save_path`.
 
 ### Key
 
 1. `get`: When it is `True`, the program will download the wallpaper.
 2. `use`: When it is `True`, the program will set today's wallpaper as background.
+3. `path`: The path to save the wallpaper.
 
 ### By CLI
 
@@ -50,3 +52,4 @@ bingwallpaper set get 1 use 1
 
 1. `set`: If is is in argv, the program will save the config to the config file.
 2. Others: Same as the keys of config, add `1` after the key to set it to `True`, and add `0` to set it to `False`.
+3. `path`: Add string after it.

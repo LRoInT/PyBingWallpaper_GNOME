@@ -31,22 +31,25 @@ bingwallpaper
 安装后可直接在终端输入`bingwallpaper`运行。
 
 - 从应用列表运行
-找到`必应壁纸`软件。
+- 找到**必应壁纸**软件。
 
-## 配置
+## 配置&日志
 
-配置文件保存在`~/.config/bingwallpaper.json`。可直接编辑。
+1. 配置文件保存在`~/.config/bingwallpaper.json`。可直接编辑。
+2. 日志文件保存在`~/.cache/bingwallpaper.log`. 每行格式如下: `Download url, status_code, save_path`。
 
 ## 键
 
 1. `get`：当其为`True`是，程序会自动获取壁纸。
 2. `use`：当其为`True`时，程序会自动设置当日壁纸为背景。
+3. `path`: 保存壁纸的路径。
 
 ### 命令行
 
 ```Bash
-bingwallpaper set get 1 use 1
+bingwallpaper [set] [get 1] [use 1] [path "save/path"]
 ```
 
-1. `set`：当其在参数列表中时，程序会将配置保存到配置文件中
+1. `set`：当其在参数列表中时，程序会将配置保存到配置文件中。
 2. 其它：与配置文件的键对应，在其后添加`1`设置为`True`，添加`0`设置为`False`。
+3. `path`: 后跟字符串即可。
